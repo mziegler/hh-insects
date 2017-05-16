@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -20,11 +20,41 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		
+		<style type="text/css">
+			.reveal section img: {
+				border-width: 0 !important;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+			
+				<section>
+					<section>
+						<h4>Phylum: Arthropoda</h4>
+						<img src="pictures/phylo/arthropoda.png" class="stretch">
+						<p>Shedding exoskeletons, segmented bodies, jointed appendages</p>
+					</section>
+
+				</section>
+				<section>
+					<section>
+						<h4>Class: Insecta</h4>
+						<img src="pictures/phylo/insecta.png" class="stretch">
+					</section>
+					<section>
+						<h4>Class: Insecta</h4>
+						<img src="pictures/phylo/insecta-revised.png" class="stretch">
+					</section>
+					<section>
+						<h4>Class: Insecta</h4>
+						<img src="pictures/mouthparts.jpg" class="stretch">
+						<p>6 legs, determinate segmentation, compound eyes, external mouthparts, 1 pair antennae</p>
+						<p>About 1 million species</p>
+					</section>
+				</section>
 				<section>Slide 2</section>
 			</div>
 		</div>
